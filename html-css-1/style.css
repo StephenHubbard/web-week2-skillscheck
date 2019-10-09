@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    background-color: gray;
+    color: white;
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    list-style-type: none;
+    font-size: 16px;
+    padding-left: 400px;
+}
+
+.green-box {
+    background-color: lightgreen;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.threeB {
+    display: flex; 
+    width: 100%;
+    justify-content: space-around; 
+}
+
+.orange-box {
+    background-color: orange;
+    height: 150px;
+    width: 300px;
+    margin: 20px;
+}
+
+.twoB {
+    display: flex; 
+    width: 100%;
+    justify-content: space-around; 
+}
+
+p {
+    width: 250px;
+    margin-left: 50px;
+    float: left;
+    margin-right: 180px;
+    font-size: 12px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.lightblack {
+    background-color: rgb(43, 39, 54);
+    width: 100vw;
+    height: 10vh;
+    position: absolute;
+    bottom: 0px;
+}
+
+.black-space {
+    background-color: black;
+    color: rgb(216, 216, 62);
+    font-size: 30px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    position: relative;
+    margin: 0;
+}
+
+.picture {
+    margin-top: 20px;
+    transform: translate(0px, 0px);
+}
+
+h1 {
+    padding-left: 40px;
+}
+
